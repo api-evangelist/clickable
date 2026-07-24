@@ -1,8 +1,12 @@
 aid: clickable
 name: Clickable
-description: Clickable is a company surfaced as a portfolio company of union-square-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Clickable is a marketing analytics and digital advertising platform founded in 2006 that
+  serves as an ads and analytics partner for businesses and agencies. The company builds award-winning
+  pay-per-click (PPC) advertising tools for search and social campaigns and delivers customized reporting
+  that cuts through data overload so marketers can focus on the metrics that matter. Clickable also offers
+  VIN retention reporting purpose-built for automotive dealerships to improve customer retention. Backed
+  by Union Square Ventures, the company focuses on relationship-driven managed advertising and analytics
+  services rather than a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/clickable/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +14,31 @@ x-backed-by:
 - union-square-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://static1.squarespace.com/static/672a800ebc6fd540c15f74eb/t/672c698115fabb534b3bc6bf/1730963841711/Logo-Clickable.png
 tags:
 - Company
+- Advertising
+- Marketing
+- Analytics
+- PPC
+- Reporting
+- Automotive
+- Search Advertising
+- Social Advertising
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,20 @@ maintainers:
 common:
 - type: Website
   url: https://clickable.com
+- type: Support
+  url: https://www.clickable.com/contact-us
+- type: SignUp
+  url: https://5w8bzhyk97t.typeform.com/to/Pf8uZKIQ
+- type: Login
+  url: https://app.clickable.com/login/
+- type: TermsOfService
+  url: https://www.clickable.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.clickable.com/privacy-policy
+- type: DomainSecurity
+  url: security/clickable-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
